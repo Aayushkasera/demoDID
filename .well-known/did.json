@@ -1,0 +1,26 @@
+.{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/jws-2020/v1"
+  ],
+  "id": "did:web:github.com/Aayushkasera/demoDID/new/main",
+  "verificationMethod": [
+    {
+      "id": "did:web:github.com/Aayushkasera/demoDID/new/main#owner",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:github.com/Aayushkasera/demoDID/new/main",
+      "publicKeyJwk": {
+        "kty": "EC", 
+        "crv": "secp256k1",
+        "x": "f7rcqtSeIqkQ2/FvQYvlCSCn+buPb6584jyy3wksUp8=",
+        "y": "U1ry+0kpfMvhKgx+zzT5lql1bLJYC8zXK18P93V5mM0="
+      }
+    }
+  ],
+  "authentication": [
+    "did:web:github.com/Aayushkasera/demoDID/new/main#owner"
+  ],
+  "assertionMethod": [
+    "did:web:github.com/Aayushkasera/demoDID/new/main#owner"
+  ]
+}
