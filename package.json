@@ -1,0 +1,25 @@
+{
+  "name": "demodid",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "did-jwt": "^7.4.7",
+    "did-jwt-vc": "^3.2.15",
+    "did-resolver": "^4.1.0",
+    "elliptic": "^6.5.4",
+    "ethers": "^5.7.2",
+    "ethjs-provider-http": "^0.1.6",
+    "ethr-did": "^3.0.10",
+    "ethr-did-resolver": "^10.1.2",
+    "web-did-resolver": "^2.0.27",
+    "web3": "^4.3.0"
+  }
+}
